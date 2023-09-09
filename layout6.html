@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 6</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    #layout6{
+        width: 800px;
+        height: 400px;
+        background-color: rgb(160, 212, 86);
+        border: 1px solid rgb(0, 0, 0);
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        text-align: center;
+        background-color: rgb(219, 214, 65);
+    }
+    nav{
+        width: 100%;
+        height: 20px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        background-color: rgb(219, 214, 65);
+        
+    }
+    .container{
+        width: 100%;
+        height: 310px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        background-color: rgb(219, 214, 65);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(219, 214, 65);
+        border-right: 1px solid rgb(0, 0, 0);
+        
+    }
+    article{
+        width: 90%;
+        height: 45%;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: antiquewhite;
+        margin-left: 20px;
+    }
+    aside{
+        width: 40%;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+</style>
+<body>
+    <span>layout 6</span>
+    <div id="layout6">
+        <header>header</header>
+        <nav>nav</nav>
+        <div class="container">
+            <section>
+                section
+                    <article>article</article>
+                    <article>article</article>
+            </section>
+            <aside>aside</aside>
+        </div>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
