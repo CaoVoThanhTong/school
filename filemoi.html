@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tuần 2</title>
+   
+</head>
+<style>
+    *{
+    background-image: "./img/Nen.png";
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    width: 1000px;
+} */
+
+.container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Header_1{
+    height: 149px;
+}
+
+#background_img{
+    min-width: 1000px;
+    height: 150px;
+}
+
+
+#logo_header{
+    position: absolute;
+    height: 150px;
+}
+.Header h1{
+    color: aliceblue;
+}
+
+.Header h3{  
+    color: aliceblue;
+}
+
+.header__title{
+    top: 0%;
+    left: -13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% ;
+    position: absolute;
+    height: 149px;
+}
+
+.Header_2{
+    width: 1000px;
+    background-color: #867979;
+}
+
+.menu{
+    width: 400px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.menu > li {
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+.content{
+    width: 1000px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.content_1{
+    display: flex;
+    width: 700px;
+    margin:20px 0 20px 0;
+    /* border-right: 1px solid black; */
+}
+
+
+.content_9{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+
+}
+
+.content_2{
+    text-align: left;
+    border-left: 1px solid black;
+}
+
+.img_9{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.name_img{
+    display: flex;
+}
+
+.title{
+    font-size: large;
+}
+
+.title_phu{
+    font-size: medium;
+    color: red;
+}
+
+.title_content{
+    font-size: small;
+}
+
+
+.Popular{
+    color: red;
+    font-size: 30px;
+    
+}
+
+.Popular_content p{
+    border-bottom: 1px solid rgb(186, 186, 186);
+    color: red;
+    margin: 10px 0 0 10px;
+
+}
+
+.contact{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: red;
+    font-size: 30px;
+}
+
+.container_content_2{
+    padding: 10px;
+}
+
+.footed{
+    background-color: #867979;
+    width: 1000px;
+    text-align: left;
+}
+
+.footed p {
+    color: white;
+    
+}
+
+.container__content{
+    padding-left: 10px;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="Header">
+            <div class="Header_1">
+                <img id="logo_header" src="/img/logo.png" alt="">
+                <img id="background_img" src="./img/background.png" alt="">
+                    <div class="header__title">
+                        <h1>YOKO'S KITCHEN</h1>
+                        <h3>JAPANESE COOKING CLASSES</h3>
+                    </div> 
+                </img>              
+            </div>
+        </div>
+
+        <div class="Header_2" >
+            <ul class="menu">
+                <li><a href="">home</a></li>
+                <li><a href="">classes</a></li>
+                <li><a href="">catering</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+             </ul>
+        </div>
+
+        <div class="content">
+            <div class="container__content">
+                <div class="content_1">
+                    <div class="img_9">
+                        <img src="./img/teriyaki.jpg" alt=""><br>
+                        <span class="name_img">Bok Choi</span>
+                    </div>
+    
+                    <div class="content_9">
+                        <p class="title">Japanese Vegetarian </p>
+                           <p class="title_phu">Five week course in London</p> <br>
+                            <p class="title_content">A five week introduction to traditional <br> Japanese vegetarian meals, <br>teaching you a selection of rice and noodle dishes.</p>
+                    </div>
+                </div>
+                <div class="content_1">
+                    <div class="img_9">
+                        <img src="./img/teriyaki.jpg" alt=""><br>
+                        <span class="name_img">Bok Choi</span>
+                    </div>
+    
+                    <div class="content_9">
+                        <p class="title">Japanese Vegetarian </p>
+                           <p class="title_phu">Five week course in London</p> <br>
+                            <p class="title_content">A five week introduction to traditional <br> Japanese vegetarian meals, <br>teaching you a selection of rice and noodle dishes.</p>
+                    </div>
+                </div>
+    
+            </div>
+           
+            <div class="content_2">
+                <div class="container_content_2">
+                    <p class="Popular">Popular Recipies</p>
+                <div class="Popular_content">
+                    <p>Yakitori (grilled chicken)</p>
+                <p>Tsukune (minced chicken patties)</p>
+                <p>Okonomiyaki (savory pancakes)</p>
+                <p>Mizutaki (chicken stew)</p>
+                </div>
+                <p class="contact">Contact</p>
+                
+                <p class="contact_content">Yoko's Kitchen <br>
+                    27 Redchurch Street <br>
+                    Shoreditch <br>
+                    London E2 7DP</p>
+                </div>
+            </div>
+            
+        </div>
+            <div class="footed">
+                <p>2011 Yoko's Kitchen</p>
+            </div>
+    </div>
+    
+
+</body>
+</html>
